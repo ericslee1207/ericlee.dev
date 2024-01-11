@@ -1,38 +1,299 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.page-container {
+  padding-left: 3%; /* For smaller screens */
+  padding-right: 3%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 768px) {
+  .page-container {
+    padding-left: 17%; /* Increased padding for larger screens */
+    padding-right: 17%;
+    padding-top: 3%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: white;
+  color: white;
+  padding: 10px 0;
+}
+
+.brand-name {
+  color: #333;
+  font-weight: bold;
+  font-size: 0.9rem; /* Changed to rem */
+  margin-bottom: 20px; /* Use pixels for margins */
+  font-family: "Inter", sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li:first-child a {
+  padding-left: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px; /* Uniform padding */
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: transparent;
+  color: #91b38e;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  font-size: 2.5rem; /* Changed to rem */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  color: #333;
+  font-size: 0.95rem; /* Changed to rem */
+  line-height: 1.7; /* Line height as a factor of font size */
+}
+
+main {
+  padding: 0px;
+}
+
+.hero {
+  background-color: white;
+  padding-bottom: 2vh;
+  font-family: "Inter", sans-serif;
+}
+
+.content {
+  margin: 2vh 0;
+  font-family: "Inter", sans-serif;
+  margin-right: auto;
+  color: #333;
+}
+
+footer {
+  background-color: white;
+  color: #333;
+  text-align: center;
+  padding: 1vh;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+.text-avatar-container {
+  display: flex;
+}
+
+.avatar-container {
+  flex: 0.45; /* Takes up half of the container */
+}
+
+.avatar-container img {
+  max-width: 75%; /* Ensure the image is responsive and doesn't overflow */
+  height: auto;
+}
+
+.text-container {
+  flex: 0.55; /* Takes up the other half of the container */
+  padding-right: 2vh; /* Spacing between text and avatar */
+}
+
+.text-avatar-container2 {
+  display: flex;
+}
+
+.avatar-container2 {
+  flex: 0.45; /* Takes up half of the container */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.avatar-container2 img {
+  max-width: 60%; /* Responsive image */
+  height: auto;
+  border-radius: 200px;
+  background-color: white;
+  border: 0.1px solid lightgray;
+}
+
+.text-container2 {
+  flex: 0.55; /* Takes up the other half of the container */
+  padding-left: 2vh; /* Spacing between text and avatar */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .text-avatar-container {
+    flex-direction: column;
+  }
+
+  .text-container {
+    padding-left: 0;
+  }
+}
+
+.mint-card {
+  background-color: #d3ecdc; /* Mint color */
+  color: #333;
+  padding: 15px 25px;
+  margin-top: 8vh;
+  margin-bottom: 4.5vh;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.emoji-spacing {
+  margin-right: 1vh; /* Adjust the space as needed */
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .flex-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0vw;
+  }
+}
+
+.experience-box {
+  border: 0.1vw solid #ddd;
+  margin-bottom: 0vh;
+  padding: 20px;
+  min-height: 220px;
+}
+
+.experience-box h3 {
+  margin-top: 0;
+}
+
+.dates,
+.jobtitle {
+  font-style: italic;
+  margin-bottom: 1vh;
+}
+
+.description {
+  margin-bottom: 0;
+}
+
+.project-box {
+  display: flex;
+  min-height: 40vh;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 0.1vw solid #ddd;
+  padding: 1vh 1vw;
+  margin: 1vh 1vw;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.project-box:hover {
+  background-color: #d3ecdc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-image {
+  max-width: 15vw;
+}
+
+.project-image img {
+  width: auto;
+  margin-right: 1vw;
+  padding: 1vh 1vw;
+  max-width: 11vw;
+  max-height: 35vh;
+}
+
+.project-details h3 {
+  margin-top: 0;
+}
+
+.project-date {
+  font-style: italic;
+}
+
+.tools-used .tool {
+  display: inline-block;
+  background-color: #eee;
+  padding: 0.5vh 1vw;
+  margin-right: 0.7vw;
+  border-radius: 15px;
+  font-size: smaller;
+  margin-bottom: 0.8vh;
+}
+
+.project-header {
+  display: flex;
+}
+
+.recent-tag {
+  display: inline-block;
+  background-color: #e9f3f7;
+  padding: 0.5vh 1vw;
+  margin-left: 1vw;
+  border-radius: 15px;
+  font-size: smaller;
+  height: 15%;
+}
+
+.project-description {
+  margin-top: 1vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.project-list {
+  list-style-type: none;
+}
+
+.project-item {
+  color: #333;
+  cursor: pointer;
+  margin-bottom: 1vh;
+  font-size: 2.6vh;
+}
+
+.project-item:hover {
+  color: #91b38e;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2vw;
+  margin-bottom: 4vh;
+}
+
+.ds-container {
+  margin-top: 30px;
 }
