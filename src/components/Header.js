@@ -21,7 +21,11 @@ function Header() {
             </li>
             <li>
               <li>
-                <a href="https://github.com/ericslee1207" target="_blank">
+                <a
+                  href="https://github.com/ericslee1207"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   github
                 </a>
               </li>
