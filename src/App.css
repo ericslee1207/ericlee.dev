@@ -125,7 +125,7 @@ footer {
   flex: 0.45; /* Takes up half of the container */
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .avatar-container2 img {
