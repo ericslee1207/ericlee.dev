@@ -5,7 +5,7 @@ function Header() {
     <div>
       <header>
         <nav>
-          <div className="brand-name">ericlee.dev</div>
+          <div className="brand-name">ericslee.dev</div>
           <section className="hero">
             <h1>hey, i'm eric 👋🏻 </h1>
           </section>
