@@ -25,7 +25,12 @@ const MyCarousel = ({ data }) => {
     <div className="carousel-wrapper">
       <Carousel responsive={responsive}>
         {data.map((project) => (
-          <a href={project.link} className="project-box" target="_blank">
+          <a
+            href={project.link}
+            className="project-box"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="project-image">
               <img src={project.img} alt="Project Screenshot" />
             </div>

@@ -160,6 +160,7 @@ function MainContent() {
                     fontSize: "inherit",
                   }}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   🔍 Credit Card Transaction Fraud Detection (96% Accuracy)
                 </a>
