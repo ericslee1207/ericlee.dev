@@ -151,7 +151,7 @@ function MainContent() {
             <div className="ds-container">
               <li className="project-item">
                 <a
-                  href="https://colab.research.google.com/drive/1uEBzRI1Q3RsBVxs0SZcF9OQ2qsYYQdPe?usp=sharing"
+                  href="https://www.youtube.com/watch?v=LUHK_dMdJMA"
                   style={{
                     textDecoration: "none",
                     color: "inherit",
