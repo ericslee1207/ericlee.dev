@@ -45,10 +45,10 @@ function MainContent() {
   ];
   const experiences = [
     {
-      name: "GRASP Lab - DAIR",
+      name: "Richardson Lab",
       date: "May 2023 - Present",
-      desc: "Focused on research and development of tractable and data efficient algorithms which enable robots to operate both dynamically and safely as they quickly maneuver through and interact with their environments",
-      title: "Software Research Assistant",
+      desc: "Applying classical and novel machine learning on iEEG data for seizure prediction. Transitioning model to wearable device to help warn patients of impending seizure in day to day life.",
+      title: "Machine Learning Research Assistant",
       img: "/pennlogo.png",
     },
     {
