@@ -27,6 +27,14 @@ function MainContent() {
       link: "https://edupork-2b1e34edc290.herokuapp.com/",
     },
     {
+      name: "NohPT",
+      date: "February 2024",
+      tools: ["JS", "Postgres", "Django"],
+      desc: "Full stack application using text-to-speech and text-to-image AI api's using Django and React",
+      img: "/typerevive.png",
+      link: "https://github.com/ericslee1207/NohPT",
+    },
+    {
       name: "LC4 Interpreter",
       date: "September 2023",
       tools: ["C", "Assembly"],
@@ -50,6 +58,13 @@ function MainContent() {
       desc: "Applying classical and novel machine learning on iEEG data for seizure prediction. Transitioning model to wearable device to help warn patients of impending seizure in day to day life.",
       title: "Machine Learning Research Assistant",
       img: "/pennlogo.png",
+    },
+    {
+      name: "Penn Spark",
+      date: "January 2024 - Present",
+      desc: "Leading the execution of a new mobile app with a group of eight students. Responsible for overseeing progress, delegating tasks, and develop full stack code.",
+      title: "Project Lead/Full Stack Developer",
+      img: "/pennspark_logo.jpeg",
     },
     {
       name: "Fundsy LLC",
