@@ -31,7 +31,7 @@ function MainContent() {
       date: "February 2024",
       tools: ["JS", "Postgres", "Django"],
       desc: "Full stack application using text-to-speech and text-to-image AI api's using Django and React",
-      img: "/typerevive.png",
+      img: "/nohpt.png",
       link: "https://github.com/ericslee1207/NohPT",
     },
     {
