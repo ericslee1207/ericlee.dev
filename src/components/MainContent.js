@@ -89,8 +89,8 @@ function MainContent() {
             <h2>software developer and data engineer</h2>
             <p>
               Hey there! I'm Eric, a curious and enthusiastic student at the
-              University of Pennsylvania, where I'm blending my love for
-              computer science and statistics. My journey has taken me from
+              University of Pennsylvania pursuing both a Master's and Bachelor's of
+              Engineering in Computer Science. My journey has taken me from
               co-founding Fundsy to interning at Southern California Edison,
               where I get to merge my academic knowledge with real-world tech
               solutions. Let's connect and share our passion for technology!
