@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.avatar-container img:hover,
+.avatar-container2 img:hover {
+  animation: pulse 1s infinite;
+}
+
+
 .page-container {
   padding-left: 3%; /* For smaller screens */
   padding-right: 3%;
