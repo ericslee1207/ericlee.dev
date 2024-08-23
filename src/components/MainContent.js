@@ -53,7 +53,7 @@ function MainContent() {
   ];
   const experiences = [
     {
-      name: "Computer Systems Teaching Assistant",
+      name: "University of Pennsylvania",
       date: "Jan 2024 - Present",
       desc: "Conducting weekly office hours, assisting students with conceptual systems knowledge and leading bi-weekly recitations to review core topics like memory hierarchy and CPU operations",
       title: "CIS 2400 TA",
