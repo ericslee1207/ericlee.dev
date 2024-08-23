@@ -53,33 +53,41 @@ function MainContent() {
   ];
   const experiences = [
     {
-      name: "Richardson Lab",
-      date: "May 2023 - Present",
-      desc: "Applying classical and novel machine learning on iEEG data for seizure prediction. Transitioning model to wearable device to help warn patients of impending seizure in day to day life.",
-      title: "Machine Learning Research Assistant",
+      name: "Computer Systems Teaching Assistant",
+      date: "Jan 2024 - Present",
+      desc: "Conducting weekly office hours, assisting students with conceptual systems knowledge and leading bi-weekly recitations to review core topics like memory hierarchy and CPU operations",
+      title: "CIS 2400 TA",
       img: "/pennlogo.png",
     },
     {
       name: "Penn Spark",
-      date: "January 2024 - Present",
+      date: "Jan 2024 - Present",
       desc: "Leading the execution of a new mobile app with a group of eight students. Responsible for overseeing progress, delegating tasks, and develop full stack code.",
       title: "Project Lead/Full Stack Developer",
       img: "/pennspark_logo.jpeg",
     },
     {
-      name: "Fundsy LLC",
-      date: "May 2020 – July 2023",
-      desc: "Co-founded and developed a fintech platform for non-profits, integrating banking APIs and focusing on secure, efficient financial transactions. Processed over $100,000 in transactions",
-      title: "Co-Founder/Software Engineer",
-      img: "/fundsylogo.png",
+      name: "Southern California Edison",
+      date: "May 2024 - Aug 2024",
+      desc: "Pioneered a new large language model for extacting features from emails and automated the process using Python and Google Cloud Platform",
+      title: "Data Science Intern",
+      img: "/scelogo.png",
     },
     {
       name: "Southern California Edison",
-      date: "May 2023 - August 2023",
+      date: "May 2023 - Aug 2023",
       desc: "Optimized data processes and transitioned large datasets, improving efficiency and accessibility of data management systems.",
       title: "Data Science Intern",
       img: "/scelogo.png",
     },
+    {
+      name: "Fundsy LLC",
+      date: "May 2020 – Jul 2023",
+      desc: "Co-founded and developed a fintech platform for non-profits, integrating banking APIs and focusing on secure, efficient financial transactions. Processed over $100,000 in transactions",
+      title: "Co-Founder/Software Engineer",
+      img: "/fundsylogo.png",
+    },
+    
   ];
   return (
     <main>
