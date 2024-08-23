@@ -77,7 +77,7 @@ function MainContent() {
       name: "Southern California Edison",
       date: "May 2023 - Aug 2023",
       desc: "Optimized data processes and transitioned large datasets, improving efficiency and accessibility of data management systems.",
-      title: "Data Science Intern",
+      title: "Data Engineering Intern",
       img: "/scelogo.png",
     },
     {
