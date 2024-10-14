@@ -148,7 +148,7 @@ footer {
 }
 
 .avatar-container2 img {
-  max-width: 60%; /* Responsive image */
+  max-width: 100%; /* Responsive image */
   height: auto;
   border-radius: 200px;
   background-color: white;
