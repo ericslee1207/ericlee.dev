@@ -110,7 +110,7 @@ function MainContent() {
         </div>
         <div className="text-avatar-container2">
           <div className="avatar-container2">
-            <img src="/headshotPFP.jpg" alt="Eric's avatar" />
+            <img src="/profile.png" alt="Eric's avatar" />
           </div>
           <div className="text-container2">
             <h2>about me</h2>
