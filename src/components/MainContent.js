@@ -96,12 +96,12 @@ function MainContent() {
           <div className="text-container">
             <h2>software developer and data engineer</h2>
             <p>
-              Hey there! I'm Eric, a curious and enthusiastic student at the
+              Hey there! I'm Eric, a third year student at the
               University of Pennsylvania pursuing both a Master's and Bachelor's of
               Engineering in Computer Science. My journey has taken me from
               co-founding Fundsy to interning at Southern California Edison,
               where I get to merge my academic knowledge with real-world tech
-              solutions. Let's connect and share our passion for technology!
+              solutions.
             </p>
           </div>
           <div className="avatar-container">
@@ -115,13 +115,12 @@ function MainContent() {
           <div className="text-container2">
             <h2>about me</h2>
             <p>
-              When I'm not working, you can find me indulging in for-fun coding,
-              playing a game of tennis, strumming my guitar, or hitting the gym
-              with friends. When I'm not buried in code or being active, you
-              might find me exploring new tech trends or brainstorming the next
-              big idea. I am proficient in Python, Java, and C, and I love to
-              explore platforms and frameworks such as Apache, AWS, Django, and
-              PyTorch
+              I love to build new ideas and solve problems. Whether that's 
+              through coding new apps or trying to learn new techinques in
+              tennis and guitar, I'm always looking for new challenges.
+              I am proficient in Python, Java, and C, and I love to explore platforms 
+              and frameworks such as Apache, AWS, Django, and PyTorch.
+              Feel free to reach out if you have any questions!
             </p>
           </div>
         </div>
