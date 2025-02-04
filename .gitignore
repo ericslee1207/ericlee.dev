@@ -3,9 +3,6 @@
 /.pnp
 .pnp.js
 
-# assets
-/public
-
 # testing
 /coverage
 
