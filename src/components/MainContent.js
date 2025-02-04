@@ -57,7 +57,7 @@ function MainContent() {
       date: "Jan 2025 - Present",
       desc: "Integrating internal tools (e.g. MagicDraw, Jama, Power BI) with Python and Java. Engineering model based systems with SysML",
       title: "Software Engineer Intern",
-      img: "/pennlogo.png",
+      img: "/nasalogo.png",
     },
     {
       name: "University of Pennsylvania",
