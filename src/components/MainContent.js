@@ -53,10 +53,17 @@ function MainContent() {
   ];
   const experiences = [
     {
+      name: "NASA",
+      date: "Jan 2025 - Present",
+      desc: "Integrating internal tools (e.g. MagicDraw, Jama, Power BI) with Python and Java. Engineering Model-Based-Systems with SysML",
+      title: "Software Engineer Intern",
+      img: "/nasalogo.png",
+    },
+    {
       name: "University of Pennsylvania",
-      date: "Jan 2024 - Present",
+      date: "August 2024 - December 2024",
       desc: "Conducting weekly office hours, assisting students with conceptual systems knowledge and leading bi-weekly recitations to review core topics like memory hierarchy and CPU operations",
-      title: "Introduction to Computer Systems TA",
+      title: "Computer Systems Teaching Assistant",
       img: "/pennlogo.png",
     },
     {
@@ -70,14 +77,14 @@ function MainContent() {
       name: "Southern California Edison",
       date: "May 2024 - Aug 2024",
       desc: "Pioneered a new large language model for extacting features from emails and automated the process using Python and Google Cloud Platform",
-      title: "Data Science Intern",
+      title: "Software Engineer Intern",
       img: "/scelogo.png",
     },
     {
       name: "Southern California Edison",
       date: "May 2023 - Aug 2023",
       desc: "Optimized data processes and transitioned large datasets, improving efficiency and accessibility of data management systems.",
-      title: "Data Engineering Intern",
+      title: "Data Engineer Intern",
       img: "/scelogo.png",
     },
     {
