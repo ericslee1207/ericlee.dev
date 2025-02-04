@@ -55,9 +55,9 @@ function MainContent() {
     {
       name: "NASA",
       date: "Jan 2025 - Present",
-      desc: "Integrating internal tools (e.g. MagicDraw, Jama, Power BI) with Python and Java. Engineering Model-Based-Systems with SysML",
+      desc: "Integrating internal tools (e.g. MagicDraw, Jama, Power BI) with Python and Java. Engineering model based systems with SysML",
       title: "Software Engineer Intern",
-      img: "/nasalogo.png",
+      img: "/pennlogo.png",
     },
     {
       name: "University of Pennsylvania",
