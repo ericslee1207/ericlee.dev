@@ -104,11 +104,9 @@ function MainContent() {
             <h2>software developer and data engineer</h2>
             <p>
               Hey there! I'm Eric, a third year student at the
-              University of Pennsylvania pursuing both a Master's and Bachelor's of
-              Engineering in Computer Science. My journey has taken me from
-              co-founding Fundsy to interning at Southern California Edison,
-              where I get to merge my academic knowledge with real-world tech
-              solutions.
+              University of Pennsylvania pursuing Master's and Bachelor's of
+              Engineering in Computer Science. I love to build and test new ideas 
+              through full stack development, machine learning, and model based system engineering
             </p>
           </div>
           <div className="avatar-container">
@@ -122,11 +120,9 @@ function MainContent() {
           <div className="text-container2">
             <h2>about me</h2>
             <p>
-              I love to build new ideas and solve problems. Whether that's 
-              through coding new apps or trying to learn new techinques in
-              tennis and guitar, I'm always looking for new challenges.
-              I am proficient in Python, Java, and C, and I love to explore platforms 
-              and frameworks such as Apache, AWS, Django, and PyTorch.
+              My main interests are in low level software development, but I'm open
+              to learning new things! I have built many full stack apps as a leader and
+              a team member, and I'm currently building IoT devices using Raspberry Pi.
               Feel free to reach out if you have any questions!
             </p>
           </div>
