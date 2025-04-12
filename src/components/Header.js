@@ -30,7 +30,7 @@ function Header() {
                 </a>
               </li>
             </li>
-            {/* <li>
+            <li>
               <li>
                 <a
                   href="A_Resume_Eric_Lee.pdf"
@@ -40,7 +40,7 @@ function Header() {
                   resume
                 </a>
               </li>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </header>
