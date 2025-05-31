@@ -53,8 +53,15 @@ function MainContent() {
   ];
   const experiences = [
     {
+      name: "Amazon",
+      date: "May 2025 - Present",
+      desc: "Generative AI, CI/CD Pipelines, AWS Lambda",
+      title: "Software Development Engineer Intern",
+      img: "/amazonlogo.jpg",
+    },
+    {
       name: "NASA",
-      date: "Jan 2025 - Present",
+      date: "Jan 2025 - May 2025",
       desc: "Integrating internal tools (e.g. MagicDraw, Jama, Power BI) with Python and Java. Engineering model based systems with SysML",
       title: "Software Engineer Intern",
       img: "/nasalogo.png",
