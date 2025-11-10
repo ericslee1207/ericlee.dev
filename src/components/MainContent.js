@@ -53,6 +53,13 @@ function MainContent() {
   ];
   const experiences = [
     {
+      name: "Stripe",
+      date: "May 2026 - Aug 2026",
+      desc: "Incoming Summer 2026",
+      title: "Software Engineer Intern",
+      img: "/stripe.png",
+    },
+    {
       name: "Amazon",
       date: "May 2025 - Present",
       desc: "Generative AI, CI/CD Pipelines, AWS Lambda",
